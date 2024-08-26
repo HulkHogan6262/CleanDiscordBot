@@ -1,19 +1,57 @@
 {
-    "GIVEAWAY_DESCRIPTION": "Lancer un concours.",
+    "COMMAND_DESCRIPTION": {
+        "COMMAND_START": "Lancer un concours.",
+        "COMMAND_ADD_TIME": "Ajouter du temps à un concours.",
+        "COMMAND_REMOVE_TIME": "Retirer du temps à un concours.",
+        "COMMAND_END": "Terminer un concours.",
+        "COMMAND_REROLL": "Relancer un concours.",
+        "COMMAND_LIST": "Lister les concours en cours.",
+        "COMMAND_CANCEL": "Annuler un concours."
+    },
+    "EMBED": {
+        "REMOVED_TIME_TITLE": "Temps retiré",
+        "REMOVED_TIME_DESCRIPTION": "Vous avez retiré **{time}** à la durée du giveaway.",
+        "LIST_TITLE": "Liste des concours en cours",
+        "LIST_DESCRIPTION": "Voici la liste des concours en cours :",
+        "LIST_FIELD": "**Participants :** {gw_participants}\n**Fin :** <t:{end_timestamp}:R>\n**Salon :** {channel_mention}",
+        "REROLL_TITLE": "Reroll effctué !",
+        "REROLL_DESCRIPTION": "Le concours a été relancé, des nouveaux gagnants ont été tirés.",
+        "END_TITLE": "Concours terminé !",
+        "END_DESCRIPTION": "Le concours pour **{prize}** a été terminé.",
+        "ADDTIME_TITLE": "Temps ajouté",
+        "ADDTIME_DESCRIPTION": "Vous avez ajouté **{time}** à la durée du giveaway.",
+        "START_TITLE": "Concours créé !",
+        "START_DESCRIPTION": "Le concours a été créé avec succès."
+    },
+    "NO_GIVEAWAY_FOUND": "Aucun concours trouvé.",
     "GIVEAWAY_TITLE": "🎉 Concours 🎉",
-    "GIVEAWAY_TEXT": "Prix : ```{prize}```\nGagnants : `{winners}`\n**Réagissez avec 🎉 pour participer !**\n\nTemps restant : {duration} {unit}",
-    "GIVEAWAY_FOOTER": "Se termine le <t:{timestamp}:f>",
-
     "FINISHED_TITLE": "🎉 Concours Terminé 🎉",
-    "FINISHED_TEXT": "Prix : ```{prize}```",
+    "FIELD_PRIZE_NAME": "Prix",
+    "FIELD_WINNER_NAME": "Gagnants",
+    "FIELD_PARTICIPANTS_NAME": "Participants",
+    "FIELD_ENDED_NAME": "Terminé",
+    "FIELD_END_NAME": "Fin",
+    "NO_PARTICIPANTS_END": "Personne n'a participé au giveaway pour remporter **{prize}**.",
+    "GIVEAWAY_DESCRIPTION": "Lancer un concours.",
+    "NO_PARTICIPANTS": "Aucun participants",
+    "ONE_PARTICIPANT": "1 participant",
+    "MANY_PARTICIPANTS": "{participants} participants",
+    "CONGRATULATIONS": "🎉 Félicitations, **{winner}** !\n**Vous avez gagné** le concours pour **`{prize}`** ! 🎉 ",
+    "PARTICIPATION_BUTTON": "Participer",
+    "ERROR": {
+        "TITLE": "Une erreur est survenue !",
+        "TIME_LESS_THAN_0": "La durée du giveaway ne doit pas être inférieur à 0.",
+        "NOT_FINISHED": "Le concours n'est pas terminé.",
+        "WINNER_LESS_THAN_0": "Le nombre de gagnants doit être supérieur à 0.",
+        "DURATION_LESS_THAN_0": "La durée du giveaway doit être supérieur à 0."
+    },
+    "GIVEAWAY_PREPARATION": "Préparation du concours...",
+
+    "GIVEAWAY_TEXT": "Prix : ```{prize}```\nGagnants : `{winners}`\n**Réagissez avec 🎉 pour participer !**\n\nTemps restant : {duration} {unit}",
+    "GIVEAWAY_FOOTER": "Giveaway sur {guild}",
     "FINISHED_FOOTER": "Terminé le <t:{timestamp}:f>",
     "FINISHED_WINNERS": "\n\nGagnants :\n{winners}",
-
-    "CONGRATULATIONS": "🎉 Félicitations, **{winner}** !\n**Vous avez gagné** le concours pour **`{prize}`** ! 🎉 ",
-
     "ERROR_NOT_ADMIN": "Vous devez être administrateur pour lancer un concours.",
     "ERROR_WINNER_AMOUNT": "Le nombre de gagnants doit être d'au moins 1.",
-    "ERROR_TIME_UNIT": "Unité de temps invalide. Utilisez 's' pour les secondes, 'm' pour les minutes, 'h' pour les heures, 'D' pour les jours, 'W' pour les semaines, 'M' pour les mois ou 'A' pour les années.",
-
-    "": ""
+    "ERROR_TIME_UNIT": "Unité de temps invalide. Utilisez 's' pour les secondes, 'm' pour les minutes, 'h' pour les heures, 'D' pour les jours, 'W' pour les semaines, 'M' pour les mois ou 'A' pour les années."
 }

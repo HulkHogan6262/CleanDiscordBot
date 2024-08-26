@@ -143,7 +143,7 @@ for element in os.listdir(cogsFolder):
 
 
 try:
-    bot.run(load_enviroment_token())
+    bot.run("MTI3NzM3MDM1ODA3NjI4MDk3Ng.GBNfGi.8ddbgL1uNnScM5vHNnyVhtTdJrY3dSMK6QgkWk")
 except Exception as e:
     print(lang.get("ERROR_BOT_RUN"))
     exit(1)
